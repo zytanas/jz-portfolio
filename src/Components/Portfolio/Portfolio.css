@@ -1,0 +1,86 @@
+#portfolio {
+    overflow: hidden;
+    width: 80%;
+    max-width: 65rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.workTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+    text-align: center;
+    color: #c23a10;
+}
+
+.workDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.workImg {
+    object-fit: cover;
+    height: 15rem;
+    width: 30rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.workImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.imageWithLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.labelAndButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activeButton {
+    margin-top: 0.5rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background-color: #c23a10;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.activeButton:hover {
+    background-color: #aa330f;
+}
+
+@media screen and (max-width: 480px){
+    .imageWithLabel>p {
+        font-size: 3vw;
+    }
+    .workImgs {
+        height: 2.2rem;
+        width: 2.25rem;
+    }
+    .imageWithLabel>h3 {
+        font-size: 5vw;
+    }
+}
