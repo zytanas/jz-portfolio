@@ -2,16 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    background: transparent;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    background: #0f0f0f;
+    background-color: #060417;
     color: #ffffff;
-    overflow: hidden;
-    overflow-y: hidden;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
 
 }
