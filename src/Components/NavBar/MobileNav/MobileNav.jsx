@@ -5,6 +5,10 @@ import Logo from './JZ-Logo.png'
 import CV from '../CV.pdf'
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
+
+    const handleDownload = () => {
+        window.open(CV, '_blank');
+    };
     return (
         <>
             <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
@@ -24,9 +28,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                         <li>
                             <Link className='menu-item' to='contact-me' offset={-100} smooth={true} duration={500}>Contact Me</Link>
                         </li>
-                        <button className='contact-btn'>
-                            <a href={CV} download='CV'>Hire Me</a>
-                        </button>
+                        <button className='contact-btn' onClick={handleDownload}>
+                                Hire Me
+                            </button>
                     </ul>
                 </div>
             </div>
