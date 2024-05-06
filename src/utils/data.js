@@ -1,7 +1,7 @@
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "../Images/frontend.png",
+        icon: "https://cdn-icons-png.freepik.com/512/9912/9912211.png",
         skills: [
             {skill: "HTML5", percentage:"80%"},
             {skill: "CSS", percentage:"80%"},
@@ -11,7 +11,7 @@ export const SKILLS = [
     },
     {
         title: "Backend",
-        icon: '../Images/backend.png',
+        icon: 'https://cdn-icons-png.freepik.com/256/9364/9364724.png?ga=GA1.1.1166963184.1704853939&semt=ais_hybrid',
         skills: [
             {skill: "PHP", percentage:"30%"},
             {skill: "Node.js", percentage:"20%"},
@@ -20,7 +20,7 @@ export const SKILLS = [
     },
     {
         title: "Tools",
-        icon: '../Images/tools.png',
+        icon: 'https://cdn-icons-png.freepik.com/256/8099/8099670.png?ga=GA1.1.1166963184.1704853939&semt=ais_hybrid',
         skills: [
             {skill: "Git & GitHub", percentage:"80%"},
             {skill: "Visual Studio Code", percentage:"80%"},
@@ -29,7 +29,7 @@ export const SKILLS = [
     },
     {
         title: "Soft Skills",
-        icon: '../Images/soft-skills.png',
+        icon: 'https://cdn-icons-png.freepik.com/256/11904/11904819.png?ga=GA1.1.1166963184.1704853939&semt=ais_hybrid',
         skills: [
             {skill: "Problem Solving", percentage:"70%"},
             {skill: "Collaboration", percentage:"70%"},
