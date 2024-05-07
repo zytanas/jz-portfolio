@@ -15,7 +15,8 @@ export const SKILLS = [
         skills: [
             {skill: "PHP", percentage:"30%"},
             {skill: "Node.js", percentage:"20%"},
-            {skill: "SQL", percentage:"30%"}
+            {skill: "SQL", percentage:"40%"},
+            {skill: "API", percentage:"40%"},
         ],
     },
     {
@@ -25,6 +26,7 @@ export const SKILLS = [
             {skill: "Git & GitHub", percentage:"80%"},
             {skill: "Visual Studio Code", percentage:"80%"},
             {skill: "Figma", percentage:"50%"},
+            {skill: "Browser Developer Tools", percentage:"75%"},
         ],
     },
     {
@@ -34,6 +36,7 @@ export const SKILLS = [
             {skill: "Problem Solving", percentage:"70%"},
             {skill: "Collaboration", percentage:"70%"},
             {skill: "Attention to Detail", percentage:"85%"},
+            {skill: "Communication Skills", percentage:"100%"},
         ],
     },
 ];

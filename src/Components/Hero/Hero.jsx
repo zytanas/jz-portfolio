@@ -3,7 +3,9 @@ import "./Hero.css"
 import Avatar from '../../Images/id.png'
 import HtmlIcon from '../../Images/html.webp'
 import CssIcon from '../../Images/css.webp'
-import JsIcon from '../../Images/js.webp'
+import JsIcon from '../../Images/js.png'
+import ReactIcon from '../../Images/react.png'
+import NodeIcon from '../../Images/node.png'
 
 const Hero = () => {
   return (
@@ -15,6 +17,9 @@ const Hero = () => {
 
         <div className='hero-img'>
             <div>
+            <div className='tech-icon'>
+                    <img src={ReactIcon} alt=''/>
+                </div>
                     <img  src={Avatar} alt=''/>
             </div>
 
@@ -27,6 +32,9 @@ const Hero = () => {
                 </div>
                 <div className='tech-icon'>
                     <img src={JsIcon} alt=''/>
+                </div>
+                <div className='tech-icon'>
+                    <img src={NodeIcon} alt=''/>
                 </div>
             </div>
         </div>

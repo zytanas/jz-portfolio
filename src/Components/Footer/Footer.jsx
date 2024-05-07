@@ -22,7 +22,7 @@ const Footer = () => {
                 />
             </div>
         </div>
-        <h5>Copyright © 2024 Zytanas, All Rights Reserved.</h5>
+        <h5>Copyright © 2024 Julia Zyrene Almoite, All Rights Reserved.</h5>
         </div>
   )
 }
