@@ -8,7 +8,6 @@ Welcome to my portfolio! This project showcases my skills and projects using Rea
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -44,7 +43,3 @@ This will start a development server, and you can view the portfolio in your bro
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, or improvements, or would like to report any issues, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
