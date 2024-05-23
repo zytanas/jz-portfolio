@@ -44,7 +44,7 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
     {
         title : "Frontend Developer Freelance at Live Stream Effort - Florida USA",
-        date: "December 2023 - Present",
+        date: "December 2023 - April 2024",
         responsibilities: [
             "Collaborated with cross-functional teams, including designers and developers, to iterate and enhance the user interface based on user feedback and usability testing.",
             "Implemented accessibility standards and best practices to ensure inclusivity and compliance with accessibility guidelines.",
