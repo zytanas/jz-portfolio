@@ -5,7 +5,6 @@ import HtmlIcon from '../../Images/html.webp'
 import CssIcon from '../../Images/css.webp'
 import JsIcon from '../../Images/js.png'
 import ReactIcon from '../../Images/react.png'
-import NodeIcon from '../../Images/node.png'
 
 const Hero = () => {
   return (
