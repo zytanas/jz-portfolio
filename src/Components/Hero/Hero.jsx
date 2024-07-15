@@ -17,9 +17,6 @@ const Hero = () => {
 
         <div className='hero-img'>
             <div>
-            {/* <div className='tech-icon'>
-                    <img src={ReactIcon} alt=''/>
-                </div> */}
                     <img  src={Avatar} alt=''/>
             </div>
 
