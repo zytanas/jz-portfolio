@@ -43,6 +43,17 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
     {
+        title : "UI/UX Freelance at Enfluence - Florida USA",
+        date: "May 2024 - July 2024",
+        responsibilities: [
+            "As a freelance UI/UX designer, I have successfully created a comprehensive live mentoring website tailored for both students and mentors.",
+            "Created an intuitive and visually appealing user interface for a live mentoring website, ensuring a seamless user experience for students and mentors.",
+            "Implemented accessibility standards and best practices to ensure inclusivity and compliance with accessibility guidelines.",
+            "Managed the design process from concept to completion, ensuring timely delivery and adherence to project requirements. Utilized project management tools to organize tasks, track progress, and meet deadlines.",
+            "Maintained clear communication and collaboration throughout the project lifecycle."
+        ]
+    },
+    {
         title : "Frontend Developer Freelance at Live Stream Effort - Florida USA",
         date: "December 2023 - April 2024",
         responsibilities: [

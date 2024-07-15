@@ -17,9 +17,9 @@ const Hero = () => {
 
         <div className='hero-img'>
             <div>
-            <div className='tech-icon'>
+            {/* <div className='tech-icon'>
                     <img src={ReactIcon} alt=''/>
-                </div>
+                </div> */}
                     <img  src={Avatar} alt=''/>
             </div>
 
@@ -34,7 +34,7 @@ const Hero = () => {
                     <img src={JsIcon} alt=''/>
                 </div>
                 <div className='tech-icon'>
-                    <img src={NodeIcon} alt=''/>
+                <img src={ReactIcon} alt=''/>
                 </div>
             </div>
         </div>
