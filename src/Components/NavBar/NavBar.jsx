@@ -31,6 +31,9 @@ const NavBar = () => {
                             <Link className='menu-item' to='work-experience' offset={-100} smooth={true} duration={500}>Work Experience</Link>
                         </li>
                         <li>
+                            <Link className='menu-item' to='projects' offset={-100} smooth={true} duration={500}>Projects</Link>
+                        </li>
+                        <li>
                             <Link className='menu-item' to='contact-me' offset={-100} smooth={true} duration={500}>Contact Me</Link>
                         </li>
 
