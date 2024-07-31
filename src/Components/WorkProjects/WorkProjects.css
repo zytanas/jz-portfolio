@@ -11,8 +11,8 @@
 
 .project-contents {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    column-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
     justify-content: center;
 }
 
@@ -24,6 +24,7 @@
     border-radius: 0.65rem;
     padding: 0.5rem;
     margin: 0 1rem;
+    box-shadow: 0 2rem 200px #221852;
 }
 
 .project-item img {
@@ -37,7 +38,6 @@
 .project-item img:hover {
     transform: scale(1.05);
 }
-
 
 .project-item h6 {
     margin-top: 10px;
