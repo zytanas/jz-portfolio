@@ -95,7 +95,9 @@
   max-width: 100px;
   max-height: 75px;
 }
-
+.image-gallery-fullscreen-button {
+    display: none !important;
+  }
 .image-gallery-icon {
     color: #ffffff;
     font-size: 30px;
