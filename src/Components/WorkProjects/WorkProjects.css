@@ -1,96 +1,181 @@
 .project-container {
-    margin: 4rem 0;
-    position: relative;
+  margin: 4rem 0;
+  position: relative;
 }
 
 .project-container h5 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
 }
 
 .project-contents {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-content: center;
 }
 
 .project-item {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    border: 1.5px solid #6751b9;
-    border-radius: 0.65rem;
-    padding: 0.5rem;
-    margin: 0 1rem;
-    box-shadow: 0 2rem 200px #221852;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 1.5px solid #6751b9;
+  border-radius: 0.65rem;
+  padding: 0.5rem;
+  margin: 0 1rem;
+  box-shadow: 0 2rem 200px #221852;
 }
 
 .project-item img {
-    width: 75%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
+  width: 75%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
 }
 
 .project-item img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .project-item h6 {
-    margin-top: 10px;
-    font-size: 1.09rem;
-    font-weight: 500;
+  margin-top: 10px;
+  font-size: 1.09rem;
+  font-weight: 500;
 }
 
 .project-item p {
-    font-size: 0.9em;
-    color: #ffffff;
+  font-size: 0.9em;
+  color: #ffffff;
 }
 
+.close-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.close-icon {
+  cursor: pointer;
+  font-size: 30px;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.close-icon:hover {
+  color: #6751b9;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #060417;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  z-index: 1000;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal .image-gallery-slide img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.modal .image-gallery-thumbnail img {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  max-height: 75px;
+}
+
+.image-gallery-icon {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  
+  .image-gallery-icon:hover {
+    color: #6751b9;
+  }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 999;
+}
+  
+  .project-link, .project-source-code {
+    margin-top: 10px;
+  }
+  
+  .project-link a, .project-source-code a {
+    color: #ffffff; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .project-link a:hover, .project-source-code a:hover {
+    text-decoration: none;
+    color: #6751b9;
+  }
+  
+
 @media (max-width: 768px) {
-    .project-container {
-        margin: 2rem 0;
-    }
+  .project-container {
+    margin: 2rem 0;
+  }
 
-    .project-contents {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        row-gap: 1.3rem;
-    }
+  .project-contents {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 1.3rem;
+  }
 
-    .project-item img {
-        max-width: 300px;
-    }
-    .project-item h6 {
-        font-size: 0.9rem;
-    }
+  .project-item img {
+    max-width: 300px;
+  }
+  .project-item h6 {
+    font-size: 0.9rem;
+  }
 
-    .project-item p {
-        font-size: 0.75rem;
-    }
+  .project-item p {
+    font-size: 0.75rem;
+  }
 }
 
 @media (max-width: 480px) {
-    .project-container {
-        margin: 1rem 0;
-    }
+  .project-container {
+    margin: 1rem 0;
+  }
 
-    .project-contents {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        row-gap: 1.3rem;
-    }
+  .project-contents {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 1.3rem;
+  }
 
-    .project-item img {
-        max-width: 300px;
-    }
+  .project-item img {
+    max-width: 300px;
+  }
 
-    .project-item h6 {
-        font-size: 0.8rem;
-    }
+  .project-item h6 {
+    font-size: 0.8rem;
+  }
+  .project-link a {
+    font-size: 0.7rem;
+  }
 
-    .project-item p {
-        font-size: 0.65rem;
-    }
+  .project-item p {
+    font-size: 0.65rem;
+  }
 }
