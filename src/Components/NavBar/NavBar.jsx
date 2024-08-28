@@ -38,7 +38,7 @@ const NavBar = () => {
                         </li>
 
                         <button className='contact-btn'>
-                        <a href={CV} download='CV'>Hire Me</a>
+                        <a href={CV} download='CV'>Download CV</a>
                         </button>
                     </ul>
 

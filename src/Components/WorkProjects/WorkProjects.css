@@ -19,20 +19,21 @@
 .project-item {
   position: relative;
   display: inline-block;
-  text-align: center;
   border: 1.5px solid #6751b9;
   border-radius: 0.65rem;
-  padding: 0.5rem;
+  text-align: justify;
+  padding: 0.9rem;
   margin: 0 1rem;
   box-shadow: 0 2rem 200px #221852;
 }
 
 .project-item img {
-  width: 75%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
+  cursor: pointer;
 }
 
 .project-item img:hover {
@@ -98,6 +99,10 @@
 .image-gallery-fullscreen-button {
     display: none !important;
   }
+  .image-gallery-play-button {
+    display: none !important;
+  }
+  
 .image-gallery-icon {
     color: #ffffff;
     font-size: 30px;

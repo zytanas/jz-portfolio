@@ -3,10 +3,10 @@ export const SKILLS = [
         title: "Frontend",
         icon: "https://cdn-icons-png.freepik.com/512/9912/9912211.png",
         skills: [
-            {skill: "HTML5", percentage:"80%"},
-            {skill: "CSS", percentage:"80%"},
-            {skill: "JavaScript", percentage:"65%"},
-            {skill: "React.js", percentage:"65%"},
+            {skill: "HTML5", percentage:"90%"},
+            {skill: "CSS", percentage:"85%"},
+            {skill: "JavaScript", percentage:"75%"},
+            {skill: "React.js", percentage:"75%"},
         ],
     },
     {

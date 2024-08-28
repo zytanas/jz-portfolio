@@ -32,7 +32,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                             <Link className='menu-item' to='contact-me' offset={-100} smooth={true} duration={500}>Contact Me</Link>
                         </li>
                         <button className='contact-btn' onClick={handleDownload}>
-                                Hire Me
+                                Download CV
                             </button>
                     </ul>
                 </div>
