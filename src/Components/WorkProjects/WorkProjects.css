@@ -33,7 +33,6 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
-  cursor: pointer;
 }
 
 .project-item img:hover {
@@ -44,6 +43,7 @@
   margin-top: 10px;
   font-size: 1.09rem;
   font-weight: 500;
+  margin-bottom: 0.9rem;
 }
 
 .project-item p {
@@ -51,93 +51,17 @@
   color: #ffffff;
 }
 
-.close-container {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px;
+.project-item div{
+  display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background: rgba(103, 81, 185, 0.5);
+    border-radius: 0.4rem 0.6rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 0.9rem;
+    margin-top: 1.3rem;
 }
 
-.close-icon {
-  cursor: pointer;
-  font-size: 30px;
-  color: #ffffff;
-  transition: color 0.3s;
-}
-
-.close-icon:hover {
-  color: #6751b9;
-}
-
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #060417;
-  padding: 20px;
-  border-radius: 10px;
-  outline: none;
-  z-index: 1000;
-  width: 80%;
-  max-width: 800px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-.modal .image-gallery-slide img {
-  width: 100%;
-  height: auto;
-  max-width: 600px;
-  max-height: 400px;
-}
-
-.modal .image-gallery-thumbnail img {
-  width: 100%;
-  height: auto;
-  max-width: 100px;
-  max-height: 75px;
-}
-.image-gallery-fullscreen-button {
-    display: none !important;
-  }
-  .image-gallery-play-button {
-    display: none !important;
-  }
-  
-.image-gallery-icon {
-    color: #ffffff;
-    font-size: 30px;
-  }
-  
-  .image-gallery-icon:hover {
-    color: #6751b9;
-  }
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.75);
-  z-index: 999;
-}
-  
-  .project-link, .project-source-code {
-    margin-top: 10px;
-  }
-  
-  .project-link a, .project-source-code a {
-    color: #ffffff; /* Link color */
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  .project-link a:hover, .project-source-code a:hover {
-    text-decoration: none;
-    color: #6751b9;
-  }
-  
 
 @media (max-width: 768px) {
   .project-container {

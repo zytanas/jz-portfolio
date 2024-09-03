@@ -43,7 +43,7 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
     {
-        title : "UI/UX Freelance at Enfluence - Florida USA",
+        title : "Web Designer Freelance at Enfluence - Florida USA",
         date: "May 2024 - July 2024",
         responsibilities: [
             "As a freelance UI/UX designer, I have successfully created a comprehensive live mentoring website tailored for both students and mentors.",
@@ -72,6 +72,15 @@ export const WORK_EXPERIENCE = [
             "Conducted code reviews and provided constructive feedback to peers to ensure code quality, consistency, and adherence to coding standards.",
             "Conducted usability testing and gathered feedback from internal stakeholders to identify areas for improvement and refine the user interface design and functionality.",
             "Integrated third-party APIs and libraries to add functionality and enhance the features of the NMS Inventory System, such as real-time data updates and user authentication."
+        ]
+    },
+    {
+        title : "Frontend Developer at VNDCI Capstone Project - STI College Baguio",
+        date: "February 2022 - January 2023",
+        responsibilities: [
+            "Collaborated closely with a team of 4 IT students to produce a Web-Based Inventory System for Vizcaya Nephrocare Dialysis Center.",
+            "Researched about MERN stack and supply chain for the system.",
+            "Conducted survey for user experience and gathered feedback from users to identify areas for improvement and refine the user interface design and functionality.",
         ]
     }
 ]
