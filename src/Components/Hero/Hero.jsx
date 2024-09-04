@@ -9,7 +9,7 @@ const Hero = () => {
     <section id='home' className='hero-container'>
         <div className='hero-content'>
             <h2>Julia Zyrene Almoite</h2>
-            <p>Dedicated Frontend Developer | Breathing life into ideas, one pixel at a time, to craft visually stunning web solutions that captivate and inspire.</p>
+            <p>Frontend Developer | Web Designer <br></br> Breathing life into ideas, one pixel at a time, to craft visually stunning web solutions that captivate and inspire.</p>
         </div>
 
         <div className='hero-img'>

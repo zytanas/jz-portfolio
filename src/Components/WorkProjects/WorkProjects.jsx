@@ -1,5 +1,4 @@
 import React from "react";
-import "react-image-gallery/styles/css/image-gallery.css";
 import "./WorkProjects.css";
 import RedHorseBeer from "./redhorse.png";
 import Vndci from "./Vndci.png";
