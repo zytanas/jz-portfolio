@@ -56,10 +56,49 @@
   font-size: 0.8rem;
   font-weight: 400;
   background: rgba(103, 81, 185, 0.5);
-  border-radius: 0.4rem 0.6rem;
+  border-radius: 1rem;
   padding: 0.4rem 0.6rem;
   margin-bottom: 0.9rem;
   margin-top: 1.3rem;
+}
+
+.project-item a {
+  font-size: 0.8rem;
+  font-weight: 400;
+  background: rgba(103, 81, 185, 0.5);
+  border-radius: 5rem;
+  padding: 0.4rem 0.6rem;
+  margin-bottom: 0.9rem;
+  margin-top: 1.3rem;
+  margin-left: 8.1rem;
+  text-decoration: none;
+}
+.project-item a:visited{
+  color: #ffffff;
+}
+.project-item a:hover{
+  background-color: #221852;
+}
+
+.project-link::after {
+  content: "View Project";
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: #333; 
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 1rem;
+  opacity: 0;
+  visibility: hidden;
+}
+.project-link:hover::after,
+.project-link:focus::after {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media (max-width: 879px) {
