@@ -4,7 +4,7 @@ export const SKILLS = [
         icon: "https://cdn-icons-png.freepik.com/512/9912/9912211.png",
         skills: [
             {skill: "HTML5", percentage:"90%"},
-            {skill: "CSS", percentage:"85%"},
+            {skill: "CSS", percentage:"90%"},
             {skill: "JavaScript", percentage:"75%"},
             {skill: "React.js", percentage:"75%"},
         ],
@@ -13,8 +13,8 @@ export const SKILLS = [
         title: "Backend",
         icon: 'https://cdn-icons-png.freepik.com/256/9364/9364724.png?ga=GA1.1.1166963184.1704853939&semt=ais_hybrid',
         skills: [
-            {skill: "PHP", percentage:"30%"},
-            {skill: "Node.js", percentage:"20%"},
+            {skill: "PHP", percentage:"40%"},
+            {skill: "Node.js", percentage:"30%"},
             {skill: "SQL", percentage:"40%"},
             {skill: "API", percentage:"40%"},
         ],
@@ -25,7 +25,7 @@ export const SKILLS = [
         skills: [
             {skill: "Git & GitHub", percentage:"80%"},
             {skill: "Visual Studio Code", percentage:"80%"},
-            {skill: "Figma", percentage:"50%"},
+            {skill: "Figma", percentage:"85%"},
             {skill: "Browser Developer Tools", percentage:"75%"},
         ],
     },
@@ -33,9 +33,9 @@ export const SKILLS = [
         title: "Soft Skills",
         icon: 'https://cdn-icons-png.freepik.com/256/11904/11904819.png?ga=GA1.1.1166963184.1704853939&semt=ais_hybrid',
         skills: [
-            {skill: "Problem Solving", percentage:"70%"},
-            {skill: "Collaboration", percentage:"70%"},
-            {skill: "Attention to Detail", percentage:"85%"},
+            {skill: "Problem Solving", percentage:"80%"},
+            {skill: "Collaboration", percentage:"90%"},
+            {skill: "Attention to Detail", percentage:"95%"},
             {skill: "Communication Skills", percentage:"100%"},
         ],
     },

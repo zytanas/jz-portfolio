@@ -66,11 +66,9 @@
   font-size: 0.8rem;
   font-weight: 400;
   background: rgba(103, 81, 185, 0.5);
-  border-radius: 5rem;
+  border-radius: 9rem;
   padding: 0.4rem 0.6rem;
-  margin-bottom: 0.9rem;
-  margin-top: 1.3rem;
-  margin-left: 8.1rem;
+  margin-left: 1rem;
   text-decoration: none;
 }
 .project-item a:visited{
