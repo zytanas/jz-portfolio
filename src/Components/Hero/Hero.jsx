@@ -2,7 +2,7 @@ import React from 'react'
 import "./Hero.css"
 import CssIcon from '../../Images/css.webp'
 import ReactIcon from '../../Images/react.png'
-import Profile from '../../Images/profile.jpg'
+import Profile from "../../Images/profile.png"
 
 const Hero = () => {
   return (
