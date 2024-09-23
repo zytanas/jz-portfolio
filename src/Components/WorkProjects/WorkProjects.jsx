@@ -7,6 +7,7 @@ import Crypto from "./Cypto.png";
 import SportsTxt from "./SportsTXT.png";
 import GameOn from "./gameon.png";
 import TodoList from "./todolist.png";
+import TaskManagement from "./task-management.png"
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
@@ -59,6 +60,14 @@ const projects = [
   },
   {
     id: 7,
+    src: TaskManagement,
+    alt: "Task Management",
+    title: "Task Management",
+    tags: "React.Js & Golang",
+    link: "https://github.com/zytanas/task-management",
+  },
+  {
+    id: 8,
     src: TodoList,
     alt: "Todo List",
     title: "ToDo List",
